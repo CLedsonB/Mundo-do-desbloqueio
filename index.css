@@ -17,7 +17,7 @@ body {
 }
 
 .navbar{
-  background: linear-gradient(to bottom, #2bff58, #FFFFFF);
+  background: linear-gradient(to bottom, #5b15ff, #FFFFFF);
   padding: 5px;
   text-align: center;
   font-family: "Bitcount Prop Single";
@@ -64,7 +64,7 @@ body {
 }
 
 .botao-detalhes {
-  background-color: #4CAF50;
+  background-color: #5b15ff;
   color: #fff;
   border: none;
   margin-right: 3px;
@@ -92,7 +92,7 @@ body {
     height: 20px;
 }
 footer {
-  background: linear-gradient(to top, #2bff58, #FFFFFF);
+  background: linear-gradient(to top, #5b15ff, #FFFFFF);
   padding: 10px;
   text-align: center;
   clear: both;
