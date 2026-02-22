@@ -51,12 +51,14 @@ function criarProdutos(produtos) {
 
 // Exemplo de uso
 const produtos = [
-  { nome: 'Turbo Service Mobile', preco: '100,00', imagem: 'img/turbo.jpg', link: `https://wa.me/+5571983012253?text=Oi%20eu%20tenho%20interesse%20no%20turbo%20service%20mobile`},
-  { nome: 'Unlock Tool 6h', preco: '20,00', imagem: 'img/unlock.jpg', link: `https://wa.me/+5571983012253?text=Oi%20eu%20tenho%20interesse%20no%20Unlock%20Tool%20de%206%20horas` },
-  { nome: 'Unlock Tool 3 meses', preco: '75,00', imagem: 'img/unlock.jpg', link: `https://wa.me/+5571983012253?text=Oi%20eu%20tenho%20interesse%20no%20Unlock%20Tool%20de%203%20meses` },
-  { nome: 'Unlock Tool 12 meses', preco: '140,00', imagem: 'img/unlock.jpg', link: `https://wa.me/+5571983012253?text=Oi%20eu%20tenho%20interesse%20no%20Unlock%20Tool%20de%2012%20meses` },
-  { nome: 'Produto 5', preco: '300,00', imagem: 'img/icon1.png' },
-  { nome: 'Produto 6', preco: '200,00', imagem: 'img/icon2.png' },
+  { nome: 'TSM-PRO 3 meses', preco: '29,99', imagem: 'img/turbo.jpg', link: `https://wa.me/+5571992790348?text=Oi%20eu%20tenho%20interesse%20no%20turbo%20service%20mobile%20de%203%20meses`},
+  { nome: 'TSM-PRO 6 meses', preco: '52,99', imagem: 'img/turbo.jpg', link: `https://wa.me/+5571992790348?text=Oi%20eu%20tenho%20interesse%20no%20turbo%20service%20mobile%20de%206%20meses`},
+  { nome: 'TSM-PRO 12 meses', preco: '75,00', imagem: 'img/turbo.jpg', link: `https://wa.me/+5571992790348?text=Oi%20eu%20tenho%20interesse%20no%20turbo%20service%20mobile%20de%2012%20meses`},
+  { nome: 'Unlock Tool 3 meses', preco: '34,99', imagem: 'img/unlock.jpg', link: `https://wa.me/+5571992790348?text=Oi%20eu%20tenho%20interesse%20no%20Unlock%20Tool%20de%203%20meses` },
+  { nome: 'Unlock Tool 6 meses', preco: '49,00', imagem: 'img/unlock.jpg', link: `https://wa.me/+5571992790348?text=Oi%20eu%20tenho%20interesse%20no%20Unlock%20Tool%20de%206%20meses` },
+  { nome: 'Unlock Tool 12 meses', preco: '86,00', imagem: 'img/unlock.jpg', link: `https://wa.me/+557171992790348?text=Oi%20eu%20tenho%20interesse%20no%20Unlock%20Tool%20de%2012%20meses` },
+  { nome: 'TFM-TOOL 3 meses', preco: '38,99', imagem: 'img/tfm.jpg', link: `https://wa.me/+557171992790348?text=Oi%20eu%20tenho%20interesse%20no%20TFM%20TOOL%20de%203%20meses` },
+  { nome: 'TFM-TOOL 12 meses', preco: '55,00', imagem: 'img/tfm.jpg', link: `https://wa.me/+557171992790348?text=Oi%20eu%20tenho%20interesse%20no%20TFM%20TOOL%20de%2012%20meses` },
 ];
 
 criarProdutos(produtos);
