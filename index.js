@@ -61,4 +61,20 @@ const produtos = [
   { nome: 'TFM-TOOL 12 meses', preco: '55,00', imagem: 'img/tfm.jpg', link: `https://wa.me/+557171992790348?text=Oi%20eu%20tenho%20interesse%20no%20TFM%20TOOL%20de%2012%20meses` },
 ];
 
-criarProdutos(produtos);
+function verificarSenha() {
+  let senhaCorreta = "1953";
+  let senha = prompt("Digite a senha para acessar a página:");
+
+  if (senha === senhaCorreta) {
+    alert("Senha correta! A página será exibida.");
+    criarProdutos(produtos);
+  } else {
+    alert("Senha incorreta! Acesso negado.");
+    // Aqui você pode redirecionar para outra página ou manter a atual oculta
+    window.location.href = "pagina_erro.html";
+  }
+}
+
+// Chama a função ao carregar a página
+window.onload = verificarSenha;
+
